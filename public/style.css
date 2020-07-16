@@ -1,0 +1,87 @@
+
+ body {
+    background-color:'FFFFFF';
+    
+ }
+ div#text{
+  margin-bottom: 32px;
+ }
+
+ div#text h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+    margin: 80px 120px;
+  }
+
+  div#text p {
+    display: flex;
+    
+    justify-content: center;
+    font-size: 20px;
+    color: darkgrey;
+
+    margin: 10px 0 0 100px;
+  }
+
+  div#find {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  div#find input {
+    width: 260px;
+    border: 1px solid #e6ecf0;
+    height: 34px;
+    padding: 0 30px 0 12px ;
+    border-radius: 16px;
+    color: #667581;
+    font-size: 16px;
+    background: #f5f8fa;
+    outline-style: none;
+  }
+
+  div#find button {
+    height: 34px;
+    background: #7159C1;
+    width: 90px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    border: 0;
+    border-radius: 16px;
+    outline-style: none;
+  }
+
+  div#results {
+    display: flex;
+    justify-content: center;
+  }
+
+ ul {
+     
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+ }
+
+ li {
+     clear: both;
+     margin-top: 20px;
+ }
+
+ img {
+     width: 80px;
+     float: left;
+     margin-right: 10px;
+ }
+
+ strong {
+     font-size: 20px;
+ }
+
+ p {
+     margin: 5px 0;
+ }
